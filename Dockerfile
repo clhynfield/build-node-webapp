@@ -7,3 +7,5 @@ RUN yarn global add bower gulp && \
     rm -rf /var/cache/* /tmp/*
 
 WORKDIR /workspace
+
+CMD [ "gulp" ]
